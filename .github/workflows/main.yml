@@ -2,7 +2,7 @@ name: run events_scraper.py
 
 on:
   schedule:
-    - cron: '1 0 * * 0' # At 00:00 on Monday
+    - cron: '*/1 * * * *' # At 00:00 on Monday
 
 jobs:
   build:
