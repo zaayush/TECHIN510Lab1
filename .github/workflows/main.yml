@@ -1,4 +1,4 @@
-lloname: run main.py
+name: run hello.py
 
 on:
   schedule:
