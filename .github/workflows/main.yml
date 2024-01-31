@@ -1,4 +1,4 @@
-name: run event_scraper.py
+name: run events_scraper.py
 
 on:
   schedule:
@@ -22,4 +22,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: execute py script # run main.py
-        run: python event_scraper.py
+        run: python events_scraper.py
