@@ -3,7 +3,7 @@ name: run events_scraper.py
 on:
   workflow_dispatch: 
   schedule:
-    - cron: '*/1 * * * *' # At 00:00 on Monday
+    - cron: '*/60 * * * *' # At 00:00 on Monday
 
 jobs:
   build:
